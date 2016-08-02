@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">Party Soundboard</string>
+
+    <string name="titletext">PARTY SOUNDBOARD</string>
+    <string name="djhorn1">DJ HORN LONG</string>
+    <string name="rickross">HUHHH</string>
+    <string name="djintro">DJ INTRO</string>
+    <string name="horn2text">SHORT HORN</string>
+    <string name="counttext">COUNTDOWWWN</string>
+    <string name="scratchtext">SCRATCH EM</string>
+    <string name="crunk_text">GET WEIRD</string>
+    <string name="what_text">WHAT?!?</string>
+    <string name="okay_text">OKAAAYYY</string>
+    <string name="yeah_text">YEEEEAAHH</string>
+    <string name="donate_text">DONATE TO YA BOY</string>
+    <string name="filler">GO DUBS!!</string>
+    <string name="yuptext">YUP</string>
+    <string name="nopetext">NOPE</string>
+
+
+</resources>

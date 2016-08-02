@@ -1,0 +1,337 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#81D4FA">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/titletext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:text="@string/titletext"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/horn1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/titletext"
+                android:src="@drawable/noun_50332"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:background="@null" />
+
+            <TextView
+                android:id="@+id/horn1text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/horn1"
+                android:layout_alignLeft="@id/horn1"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/djhorn1"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/rickross"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/titletext"
+                android:src="@drawable/shutters"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:background="@null" />
+
+            <TextView
+                android:id="@+id/rosstext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rickross"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/rickross"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+
+            <ImageButton
+                android:id="@+id/djintro"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/titletext"
+                android:src="@drawable/djintro"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:background="@null" />
+
+            <TextView
+                android:id="@+id/introtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/djintro"
+                android:layout_alignLeft="@id/djintro"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/djintro"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/horn2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_below="@id/horn1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/pizza"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:background="@null" />
+
+            <TextView
+                android:id="@+id/horn2text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/horn2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/horn2text"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/countdown"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/horn1"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/noun_7265"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:background="@null" />
+
+            <TextView
+                android:id="@+id/counttext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/countdown"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/counttext"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/scratch"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/horn1"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/scratch"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:background="@null" />
+
+            <TextView
+                android:id="@+id/scratch_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/scratch"
+                android:layout_alignLeft="@id/scratch"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/scratchtext"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/get_crunk"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_below="@id/horn2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/keg"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:background="@null" />
+
+            <TextView
+                android:id="@+id/crunk_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/get_crunk"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/crunk_text"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/what"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_below="@id/countdown"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/party"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:background="@null" />
+
+            <TextView
+                android:id="@+id/what_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/what"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="@string/what_text"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/okay"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_below="@id/scratch"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/twerk"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:background="@null" />
+
+            <TextView
+                android:id="@+id/okay_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/okay"
+                android:layout_alignLeft="@id/okay"
+                android:layout_marginTop="5dp"
+                android:text="@string/okay_text"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/yeah"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_below="@id/get_crunk"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/yea_pic"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:background="@null" />
+
+            <TextView
+                android:id="@+id/yeah_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/yeah"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="60dp"
+                android:text="@string/yeah_text"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/yup"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_below="@id/what_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/yup"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:background="@null" />
+
+            <TextView
+                android:id="@+id/yup_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/yup"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="@string/yuptext"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/nope"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_below="@id/okay_text"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/nope"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:background="@null" />
+
+            <TextView
+                android:id="@+id/nope_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nope"
+                android:layout_alignRight="@id/nope"
+                android:layout_marginRight="22dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/nopetext"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/yeah_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:text="@string/filler"
+                android:textSize="10sp"
+                android:textColor="#81D4FA"/>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
